@@ -1,0 +1,9 @@
+#+title: Exercism
+#+export_file_name: index
+#+html_link_up: ./index.html
+#+setupfile: ~/.emacs.d/org-templates/level-1.org
+
+My solutions for [[https://exercism.io][Exercism]] exercises.
+
+- Source: https://git.tilde.institute/andinus/exercism
+- GitHub: https://github.com/andinus/exercism
