@@ -3,3 +3,5 @@ tests.out
 .pytest_cache
 __pycache__
 .precomp
+node_modules
+package-lock.json
