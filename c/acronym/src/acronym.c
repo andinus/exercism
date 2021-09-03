@@ -3,8 +3,7 @@
 #include <stdlib.h>
 
 char *abbreviate(const char *phrase) {
-    if (phrase == NULL) return NULL;
-    if (phrase[0] == '\0') return NULL;
+    if (phrase == NULL || phrase[0] == '\0') return NULL;
 
     size_t pos = 0;
     char *acronym = malloc(1 * sizeof(char));
