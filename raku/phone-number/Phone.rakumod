@@ -18,19 +18,12 @@ sub clean-number(Str $number --> Str) is export {
     # <punct> matches "(";
     die @errors[4] if $number.contains: /<[!:]>/;
 
-    given $number.comb.grep(/\d/)>>.Int {
+    my Int @num = $number.comb.grep(/\d/)>>.Int;
+    given @num {
         when .elems == 11 {
             die @errors[0] if .[0] !== 1;
-
-            # Area code.
-            die @errors[5] if .[1] == 0;
-            die @errors[6] if .[1] == 1;
-
-            # Exchange code.
-            die @errors[7] if .[4] == 0;
-            die @errors[8] if .[4] == 1;
-
-            return .skip.join;
+            @num .= skip;
+            proceed;
         }
         when .elems == 10 {
             # Area code.
@@ -45,6 +38,5 @@ sub clean-number(Str $number --> Str) is export {
         }
         when .elems > 11 { die @errors[1] }
         when .elems < 10 { die @errors[2] }
-        default { return .join }
     }
 }
