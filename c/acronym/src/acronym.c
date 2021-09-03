@@ -13,11 +13,11 @@ char *abbreviate(const char *phrase) {
         acronym[pos++] = toupper((unsigned char) phrase[0]);
 
     for (size_t idx = 0; phrase[idx] != '\0'; idx++)
-        if (phrase[idx] == ' ' || phrase[idx] == '-' || phrase[idx] == '_')
-            if (phrase[idx + 1] != '\0' && isalpha(phrase[idx + 1])) {
-                acronym = realloc(acronym, (pos + 1) * sizeof(char));
-                acronym[pos++] = toupper((unsigned char) phrase[idx + 1]);
-            }
+        if ((phrase[idx] == ' ' || phrase[idx] == '-' || phrase[idx] == '_')
+            && isalpha(phrase[idx + 1])) {
+            acronym = realloc(acronym, (pos + 1) * sizeof(char));
+            acronym[pos++] = toupper((unsigned char) phrase[idx + 1]);
+        }
 
     acronym = realloc(acronym, (pos + 1) * sizeof(char));
     acronym[pos] = '\0';
