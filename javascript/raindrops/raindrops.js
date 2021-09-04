@@ -1,11 +1,17 @@
 'use strict';
 
-export const convert = (num) => {
+export const convert = (number) => {
     let drops = "";
-    if (num % 3 == 0) drops += "Pling";
-    if (num % 5 == 0) drops += "Plang";
-    if (num % 7 == 0) drops += "Plong";
 
-    if (drops.length == 0) drops += num;
+    [
+        {factor: 3, result: 'Pling'},
+        {factor: 5, result: 'Plang'},
+        {factor: 7, result: 'Plong'}
+    ].forEach(drop => {
+         if (number % drop.factor === 0)
+             drops += drop.result;
+     });
+
+    if (drops === "") drops += number;
     return drops;
 };
