@@ -1,19 +1,19 @@
 'use strict';
 
 export const convert = (number) => {
-    const rules = [
-        {factor: 3, result: 'Pling'},
-        {factor: 5, result: 'Plang'},
-        {factor: 7, result: 'Plong'}
-    ];
+    const factorToSound = new Map([
+        [3, 'Pling'],
+        [5, 'Plang'],
+        [7, 'Plong']
+    ]);
 
     let drops = "";
-    rules.forEach(drop => {
-        if (number % drop.factor === 0)
-            drops += drop.result;
-    });
+    for (const [factor, sound] of factorToSound)
+        if (number % factor === 0)
+             drops += sound;
 
     if (drops === "")
         drops += number;
+
     return drops;
 };
