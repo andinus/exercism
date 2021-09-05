@@ -7,3 +7,5 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 
 - Source: https://git.tilde.institute/andinus/exercism
 - GitHub: https://github.com/andinus/exercism
+
+- Note: The license only applies to my solutions.
