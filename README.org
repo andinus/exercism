@@ -9,3 +9,88 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - GitHub: https://github.com/andinus/exercism
 
 - Note: The license only applies to my solutions.
+
+* C [15/18]
+
+- [X] Hello World
+- [X] Armstrong Numbers
+- [X] Resistor Color
+- [X] Isogram
+- [X] Gigasecond
+- [X] Pangram
+- [X] Hamming
+- [X] Grains
+- [X] Space Age
+- [X] Nucleotide Count
+- [X] RNA Transcription
+- [X] Two Fer
+- [ ] Square Root
+- [X] Difference of Squares
+- [ ] Sum of Multiples
+- [ ] Leap
+- [X] Acronym
+- [X] Binary Search
+
+* Clojure [3/4]
+
+- [X] Hello World
+- [X] Two Fer
+- [X] Raindrops
+- [ ] Reverse String
+
+* Emacs Lisp [3/4]
+
+- [X] Hello World
+- [X] Two Fer
+- [X] Leap
+- [ ] Anagram
+
+* Go [4/7]
+
+- [X] Hello World
+- [X] Two Fer
+- [ ] Space Age
+- [X] Hamming
+- [ ] Leap
+- [X] Raindrops
+- [ ] Nucleotide Count
+
+* JavaScript [4/8]
+
+- [X] Hello World
+- [ ] Square Root
+- [X] Two Fer
+- [X] Resistor Color
+- [X] Raindrops
+- [ ] Hamming
+- [ ] Luhn
+- [ ] Triangle
+
+* Python [3/3]
+
+- [X] Hello World
+- [X] Two Fer
+- [X] Raindrops
+
+* Raku [11/14]
+
+- [X] Hello World
+- [X] Two Fer
+- [X] Leap
+- [X] Bob
+- [X] Nucleotide Count
+- [X] Pangram
+- [X] Clock
+- [X] Hamming
+- [X] Anagram
+- [X] Word Count
+- [X] Raindrops
+- [ ] Luhn
+- [ ] Phone Number
+- [ ] RNA Transcription
+
+* Rust [2/3]
+
+- [X] Hello World
+- [X] Lucian's Luscious Lasagna
+- [ ] Armstrong Numbers
