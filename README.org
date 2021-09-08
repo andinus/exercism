@@ -88,6 +88,7 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [X] Luhn
 - [ ] Phone Number
 - [ ] RNA Transcription
+- [ ] Acronym
 
 * Rust [2/3]
 
