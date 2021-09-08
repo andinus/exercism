@@ -10,7 +10,7 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 
 - Note: The license only applies to my solutions.
 
-* C [15/18]
+* C [16/18]
 
 - [X] Hello World
 - [X] Armstrong Numbers
@@ -27,7 +27,7 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [ ] Square Root
 - [X] Difference of Squares
 - [ ] Sum of Multiples
-- [ ] Leap
+- [X] Leap
 - [X] Acronym
 - [X] Binary Search
 
