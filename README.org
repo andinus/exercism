@@ -90,8 +90,9 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [ ] RNA Transcription
 - [ ] Acronym
 
-* Rust [2/3]
+* Rust [2/4]
 
 - [X] Hello World
 - [X] Lucian's Luscious Lasagna
 - [ ] Armstrong Numbers
+- [ ] Assembly Line
