@@ -72,7 +72,7 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [X] Two Fer
 - [X] Raindrops
 
-* Raku [12/14]
+* Raku [14/15]
 
 - [X] Hello World
 - [X] Two Fer
@@ -86,8 +86,8 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [X] Word Count
 - [X] Raindrops
 - [X] Luhn
-- [ ] Phone Number
-- [ ] RNA Transcription
+- [X] Phone Number
+- [X] RNA Transcription
 - [ ] Acronym
 
 * Rust [2/4]

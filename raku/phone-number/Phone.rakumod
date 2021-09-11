@@ -18,7 +18,7 @@ sub clean-number(Str $number --> Str) is export {
     # <punct> matches "(";
     die @errors[4] if $number.contains: /<[!:]>/;
 
-    my Int @num = $number.comb.grep(/\d/)>>.Int;
+    my Int @num = $number.comb(/\d/)>>.Int;
     given @num {
         when .elems == 11 {
             die @errors[0] if .[0] !== 1;
