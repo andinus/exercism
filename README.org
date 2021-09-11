@@ -91,9 +91,9 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [ ] Acronym
 - [ ] Allergies
 
-* Rust [2/4]
+* Rust [3/4]
 
 - [X] Hello World
 - [X] Lucian's Luscious Lasagna
-- [ ] Armstrong Numbers
+- [X] Armstrong Numbers
 - [ ] Assembly Line

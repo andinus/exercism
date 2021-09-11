@@ -13,5 +13,5 @@ pub fn is_armstrong_number(num: u32) -> bool {
         tmp /= 10
     }
 
-    return arms == num;
+    arms == num
 }
