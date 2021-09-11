@@ -89,6 +89,7 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [X] Phone Number
 - [X] RNA Transcription
 - [ ] Acronym
+- [ ] Allergies
 
 * Rust [2/4]
 
