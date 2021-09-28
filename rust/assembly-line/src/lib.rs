@@ -1,14 +1,16 @@
-const CARS_PER_HR: u32 = 221;
+const CARS_PER_HR: f64 = 221.0;
+
+fn success_rate(speed: u8) -> f64 {
+    match speed {
+        1..=4 => 1.0,
+        5..=8 => 0.9,
+        9|10 => 0.77,
+        _ => 0.0,
+    }
+}
 
 pub fn production_rate_per_hour(speed: u8) -> f64 {
-    let mut cars: f64 = ((speed as u32) * CARS_PER_HR) as f64;
-
-    match speed {
-        5..=8 => cars *= 0.90,
-        9 | 10 => cars *= 0.77,
-        _ => {},
-    }
-    cars
+    (speed as f64) * CARS_PER_HR * success_rate(speed)
 }
 
 pub fn working_items_per_minute(speed: u8) -> u32 {
