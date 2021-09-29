@@ -91,10 +91,10 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [ ] Acronym
 - [ ] Allergies
 
-* Rust [4/5]
+* Rust [5/5]
 
 - [X] Hello World
 - [X] Lucian's Luscious Lasagna
 - [X] Armstrong Numbers
 - [X] Assembly Line
-- [ ] Semi Structured Logs
+- [X] Semi Structured Logs
