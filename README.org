@@ -5,7 +5,6 @@
 
 My solutions for [[https://exercism.io][Exercism]] exercises.
 
-- Source: https://git.tilde.institute/andinus/exercism
 - GitHub: https://github.com/andinus/exercism
 
 - Note: The license only applies to my solutions.
@@ -91,11 +90,16 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [X] Acronym
 - [ ] Allergies
 
-* Rust [5/6]
+* Rust [10/11]
 
 - [X] Hello World
 - [X] Lucian's Luscious Lasagna
 - [X] Armstrong Numbers
 - [X] Assembly Line
 - [X] Semi Structured Logs
+- [X] Reverse String
+- [X] Gigasecond
+- [X] Anagram
+- [X] Difference of Squares
+- [X] Grains
 - [ ] Space Age
