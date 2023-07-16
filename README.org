@@ -54,15 +54,15 @@ My solutions for [[https://exercism.io][Exercism]] exercises.
 - [X] Raindrops
 - [ ] Nucleotide Count
 
-* JavaScript [4/8]
+* JavaScript [6/8]
 
 - [X] Hello World
 - [ ] Square Root
 - [X] Two Fer
 - [X] Resistor Color
 - [X] Raindrops
-- [ ] Hamming
-- [ ] Luhn
+- [X] Hamming
+- [X] Luhn
 - [ ] Triangle
 
 * Python [3/3]
