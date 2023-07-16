@@ -9,9 +9,10 @@ unsigned int sum(const unsigned int *factors,
     for (size_t idx = 0; idx < number_of_factors; idx++)
         for (size_t num = 0; num < limit; num++)
             // factors[idx] shouldn't be 0. (% fails)
-            if (!seen[num] && factors[idx] && !(num % factors[idx])) {
+            if (!seen[num] && factors[idx] != 0 && (num % factors[idx] == 0)) {
                 total += num;
                 seen[num] = true;
             }
+    free(seen);
     return total;
 }
